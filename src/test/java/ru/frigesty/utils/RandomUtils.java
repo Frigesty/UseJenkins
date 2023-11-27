@@ -12,19 +12,19 @@ public class RandomUtils {
 
         String city;
         switch (state) {
-            case "NCR" -> {
+            case "NCR" : {
                 city = faker.options().option(stateNCR);
                 return city;
             }
-            case "Uttar Pradesh" -> {
+            case "Uttar Pradesh" : {
                 city = faker.options().option(stateUttarPradesh);
                 return city;
             }
-            case "Haryana" -> {
+            case "Haryana" : {
                 city = faker.options().option(stateHaryana);
                 return city;
             }
-            case "Rajasthan" -> {
+            case "Rajasthan" : {
                 city = faker.options().option(stateRajasthan);
                 return city;
             }
